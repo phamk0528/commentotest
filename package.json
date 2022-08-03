@@ -1,0 +1,45 @@
+{
+    "name": "news-ui",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "test": "cypress open",
+        "type-check": "tsc"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^1.0.5",
+        "@chakra-ui/react": "^1.1.1",
+        "@chakra-ui/theme-tools": "1.1.2",
+        "@emotion/react": "11.1.5",
+        "@emotion/styled": "11.1.5",
+        "aos": "^3.0.0-beta.6",
+        "dayjs": "^1.10.5",
+        "formik": "^2.2.6",
+        "framer-motion": "^4.0.3",
+        "get-youtube-id": "^1.0.1",
+        "lodash.upperfirst": "^4.3.1",
+        "markdown-to-jsx": "^7.1.2",
+        "next": "latest",
+        "next-seo": "^4.24.0",
+        "react": "^17.0.2",
+        "react-commento": "^1.0.0",
+        "react-cookie": "^4.0.3",
+        "react-cookie-consent": "^6.2.4",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.2.0",
+        "react-spinners": "^0.10.6",
+        "react-toastify": "^7.0.4",
+        "react-youtube": "^7.13.1",
+        "recoil": "^0.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.21",
+        "@types/react": "^16.9.16",
+        "@types/react-dom": "^16.9.4",
+        "prettier": "^2.2.1",
+        "typescript": "4.0"
+    },
+    "license": "MIT"
+}
